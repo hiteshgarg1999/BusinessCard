@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+
+    android:layout_margin="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF8A65"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/junagarh" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Junagarh Fort, Bikaner"
+            android:textSize="28sp"
+            android:textColor="#673AB7"
+            android:padding="8dp"
+            android:background="#E0F7FA"
+            android:id="@+id/junagarh"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_call_black_24dp"
+            android:layout_below="@id/junagarh"
+            android:padding="8dp"
+            android:id="@+id/phone"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="8955898915"
+            android:layout_below="@id/junagarh"
+            android:layout_toRightOf="@id/phone"
+            android:textSize="22sp"
+            android:padding="8dp"
+            android:id="@+id/no."/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_email_black_24dp"
+            android:layout_below="@id/phone"
+            android:padding="8dp"
+            android:id="@+id/mail"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/mail"
+            android:layout_below="@id/phone"
+            android:text="hitesh.garg@gmail.com"
+            android:textSize="22sp"
+            android:padding="8dp"
+            android:id="@+id/email"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_description_black_24dp"
+            android:layout_below="@id/mail"
+            android:padding="8dp"
+            android:id="@+id/desc"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The structures built within the Junagarh fort are the palaces and temples, which are made of red sandstone (Dulmera) and marble. The palaces are described as picturesque with their assortment of courtyards, balconies, kiosks and windows."
+            android:layout_toRightOf="@id/desc"
+            android:layout_below="@id/email"
+            android:textSize="16sp"
+            android:padding="8dp"
+            android:id="@+id/des"/>
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_access_time_black_24dp"
+            android:padding="8dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10 AM to 5 PM"
+            android:textSize="22sp"
+            android:padding="8dp"/>
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>
+
